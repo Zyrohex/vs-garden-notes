@@ -1,0 +1,3 @@
+Kubernetes supports service discovery and load balancing, allowing applications to access services through a stable address while distributing traffic efficiently.
+- **Mechanism:** When a Kubernetes service is created, it is assigned a unique IP address (stable endpoint) which is used by service consumers. For services defined as type LoadBalancer, traffic is distributed across the [[Pods]] associated with the service.
+- **Benefits:** This feature ensures reliable network traffic management by automatically distributing client requests or network load to multiple server endpoints, improving the overall performance and reliability of applications.

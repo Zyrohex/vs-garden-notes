@@ -1,0 +1,3 @@
+Self-healing is a key feature of Kubernetes that ensures deployed applications are always running and healthy.
+- **Mechanism:** Kubernetes continuously monitors the state of [[Pods]] and other deployment objects. If a Pod fails due to hardware failure or any other reason, Kubernetes automatically restarts the failed Pods, replaces them, reschedules them, and even kills Pods that do not respond to user-defined health checks.
+- **Benefits:** This feature enhances the reliability of applications by ensuring downtime is minimized, and application performance is maintained as defined by the user's requirements.
